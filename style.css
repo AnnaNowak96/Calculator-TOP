@@ -1,0 +1,89 @@
+.color1 {color: #459895;}
+.color2 {color: #8cb1a4;}
+.color3 {color: #5f4f78;}
+.color4 {color: #ab819d;}
+.color5 {color: #e8c4cd;}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #8cb1a4 ;
+    min-height: 100vh;
+}
+h1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 15px;
+    color: #0c433a;
+    font-size: 50px;
+}
+
+footer {
+    margin-top: auto;
+    text-align: center;
+    padding: 10px;
+    color: #0c433a;
+}
+
+#content {
+    background-color: #459895;
+    display: flex;
+    height: 450px;
+    width: 300px;
+    border-style: solid;
+    border-width: 2px;
+    margin: auto;
+    margin-top: 20px;
+    flex-flow: wrap;
+    align-content: flex-start;
+}
+
+button {
+    background-color: #e8c4cd;
+    flex-grow: 1;
+    width: 80px;
+    height: 50px;
+    margin: 5px;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+button:hover {
+    background-color: #b1d7fa;
+}
+
+#window {
+    display: flex;
+    margin: 5px;
+    margin-top: 10px;
+    width: 290px;
+    height: 60px;
+    background-color: #e2e2ae;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 18px;
+}
+
+#clear, #back {
+    background-color: #ab819d;
+    width: 140px;
+}
+
+#enter {
+    background-color: #5f4f78;
+}
+
+#clear:hover,
+#back:hover,
+#enter:hover {
+    background-color: #b1d7fa;
+}

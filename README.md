@@ -1,7 +1,7 @@
 # Calculator-TOP
-Create calculator that do this functions:
--add
--subtract
+Create calculator that do this functions:  
+-add  
+-subtract  
 -multiply
 -divide
 Create a GUI in HTML $ CSS and also code in JS. Make the calculator calculate numbers and display them and then the result on display. 

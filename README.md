@@ -1,5 +1,5 @@
 # Calculator-TOP  
-Project made during The Odin Projct course (TOP)  
+Project created during The Odin Project course (TOP)  
 Create calculator that do this functions:  
 -add  
 -subtract  
